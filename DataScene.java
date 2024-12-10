@@ -35,7 +35,7 @@ filmArray[i] = new Movie(titlesArray[i], yearsArray[i], ratingsArray[i]);
     
   
 
-    clear("yellow"); // makes white background
+    clear("yellow"); // makes yellow background
 setTextHeight(17);
 if(f.getRating() >= 8.6){
   drawText(f.toStringMaster(), 20, 100);
